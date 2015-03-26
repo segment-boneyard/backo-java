@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.segment.backo</groupId>
     <artifactId>backo-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>backo-sample</artifactId>
