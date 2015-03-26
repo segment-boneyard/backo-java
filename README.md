@@ -12,7 +12,7 @@ Backo backo = Backo.builder()
   .base(TimeUnit.MILLISECONDS, 1)
   .cap(TimeUnit.SECONDS, 1)
   .jitter(1)
-  .factor(1)
+  .factor(2)
   .build();
 
 for (int i = 0; i < N; i++) {
@@ -85,4 +85,4 @@ SOFTWARE.
 
 
  [1]: http://github.com/segmentio/backo-java
- [2]: http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.segment.backo&a=backo-java&v=LATEST
+ [2]: http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.segment.backo&a=backo&v=LATEST
