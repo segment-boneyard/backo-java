@@ -18,7 +18,7 @@ Backo backo = Backo.builder()
 for (int i = 0; i < N; i++) {
   doWork();
   try {
-    backo.backoff();
+    backo.sleep();
   } catch (InterruptedException e) {
     throw e;
   }
